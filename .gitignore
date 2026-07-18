@@ -1,3 +1,11 @@
+# Ignore Python virtual environments
+.venv/
+venv/
+ENV/
 __pycache__/
 *.pyc
-.vscode/
+
+# Ignore large LLaMA AI model files/weights
+*.bin
+*.gguf
+models/
